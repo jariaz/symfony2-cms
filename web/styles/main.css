@@ -1,0 +1,41 @@
+/*
+    This is just temporary....
+*/
+body {
+    padding:20px;
+    margin:0;
+    background: #cccccc;
+    font-family: "helvetica neue", helvetica, arial, sans-serif;
+}
+
+#container {
+    background: #ffffff;
+    margin: 10px auto;
+    width: 500px;
+    padding: 30px;
+}
+
+#logo {
+    text-align: center;
+}
+
+#nav {
+    font-size: 12px;
+    border-bottom: 1px dotted #cccccc;
+    padding-bottom: 5px;
+}
+
+#nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#nav ul li a {
+    text-decoration: none;
+}
