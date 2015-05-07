@@ -39,3 +39,13 @@ body {
 #nav ul li a {
     text-decoration: none;
 }
+
+#nav ul li a:after {
+    width: 1px;
+    height: 10px;
+    background: #000000;
+    position: absolute;
+    right: 110px;
+    top: 100px;
+    content: ' ';
+}
