@@ -1,6 +1,7 @@
 /*
     This is just temporary....
 */
+
 body {
     padding:20px;
     margin:0;
@@ -23,6 +24,7 @@ body {
     font-size: 12px;
     border-bottom: 1px dotted #cccccc;
     padding-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 #nav ul {
@@ -34,6 +36,7 @@ body {
 #nav ul li {
     display: inline-block;
     margin-right: 10px;
+    position: relative;
 }
 
 #nav ul li a {
@@ -42,10 +45,10 @@ body {
 
 #nav ul li a:after {
     width: 1px;
-    height: 10px;
-    background: #000000;
+    height: 15px;
+    background: #ccc;
     position: absolute;
-    right: 110px;
-    top: 100px;
-    content: ' ';
+    right: -10px;
+    top: 0px;
+    content: '';
 }
